@@ -1,0 +1,32 @@
+{
+  "name": "unicornpass",
+  "version": "0.1.0",
+  "description": "Colorful password fields using SHA1 hash of your password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersion/node-unicornpass.git"
+  },
+  "keywords": [
+    "hash",
+    "password",
+    "sha1",
+    "crypto",
+    "security",
+    "color",
+    "colour",
+    "unicorn"
+  ],
+  "author": "emersion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emersion/node-unicornpass/issues"
+  },
+  "homepage": "https://github.com/emersion/node-unicornpass#readme",
+  "dependencies": {
+    "sha.js": "^2.4.5"
+  }
+}
