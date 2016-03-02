@@ -1,2 +1,3 @@
 # node-unicornpass
-Unicornpass library for Node
+
+[Unicornpass](https://github.com/carmebar/unicornpass) library for Node
