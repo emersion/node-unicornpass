@@ -16,6 +16,6 @@ unicornpass(salt + password);
 // Returns an object with backgroundColor and backgroundImage
 ```
 
-## Licence
+## License
 
 MIT
