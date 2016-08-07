@@ -4,8 +4,6 @@
 
 [Unicornpass](https://github.com/carmebar/unicornpass) library for Node.
 
-> Note: uses SHA512 instead of SHA1
-
 ## Usage
 
 ```js
