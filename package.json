@@ -1,6 +1,6 @@
 {
   "name": "unicornpass",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Colorful password fields using SHA1 hash of your password",
   "main": "index.js",
   "scripts": {
