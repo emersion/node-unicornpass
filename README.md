@@ -1,5 +1,7 @@
 # node-unicornpass
 
+[![Build Status](https://travis-ci.org/emersion/node-unicornpass.svg?branch=master)](https://travis-ci.org/emersion/node-unicornpass)
+
 [Unicornpass](https://github.com/carmebar/unicornpass) library for Node.
 
 > Note: uses SHA512 instead of SHA1
