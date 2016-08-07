@@ -1,7 +1,7 @@
 var createHash = require('sha.js');
 
-function sha512(bytes) {
-	return createHash('sha512').update(bytes, 'utf8').digest('hex');
+function hash(bytes) {
+	return createHash('sha1').update(bytes, 'utf8').digest('hex');
 }
 
 function dwords(bytes) {
@@ -39,15 +39,15 @@ function gradient(colors) {
 }
 
 function unicornpass(password) {
-	var hash = dwords(sha512(password));
+	var hashed = dwords(hash(password));
 
-	var xor = hash.reduce(function (a, b) {
+	var xor = hashed.reduce(function (a, b) {
 		return a ^ b;
 	}, 0);
 
 	return {
 		backgroundColor: rgba(xor),
-		backgroundImage: gradient(hash)
+		backgroundImage: gradient(hashed)
 	};
 }
 
